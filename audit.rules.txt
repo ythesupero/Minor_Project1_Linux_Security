@@ -1,0 +1,4 @@
+-w /etc/sudoers -p wa -k sudoers_changes
+-w /etc/passwd -p wa -k passwd_changes
+-w /etc/shadow -p wa -k shadow_changes
+-w /home -p wa -k home_changes
